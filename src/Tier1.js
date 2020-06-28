@@ -15,7 +15,10 @@ export default class Tier1 extends Component {
   }
   
   
-  handleClick
+  handleClick = () => {
+    const color = getRandomColor()
+    this.setState
+  }
   
 
   render() {
