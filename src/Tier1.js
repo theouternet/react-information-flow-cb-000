@@ -20,7 +20,10 @@ export default class Tier1 extends Component {
     this.setState({color: color, childColor: getReducedColor(color)})
   }
   
-  handleChildClick - 
+  handleChildClick = (event) => {
+    event.stopPropagation()
+    this.setState(P)
+  }
   
 
   render() {
