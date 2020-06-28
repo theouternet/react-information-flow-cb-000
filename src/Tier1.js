@@ -22,7 +22,7 @@ export default class Tier1 extends Component {
   
   handleChildClick = (event) => {
     event.stopPropagation()
-    this.setState(P)
+    this.setState({childColor: getRandomColor()})
   }
   
 
