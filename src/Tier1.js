@@ -13,6 +13,10 @@ export default class Tier1 extends Component {
       childColor: getReducedColor(initialColor)
     }
   }
+  
+  
+  handleClick
+  
 
   render() {
     // hard coded color values have been added below, though they won't be
